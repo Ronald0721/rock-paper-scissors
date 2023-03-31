@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    height: 100vh;
+    color: #333;
+    background-image: linear-gradient(to top left, #0c294c 0%, #5195d1 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 3rem !important;
+}
+
+.move:hover {
+    border: solid 2px #42d3ff;
+    border-radius: 10px;
+}
